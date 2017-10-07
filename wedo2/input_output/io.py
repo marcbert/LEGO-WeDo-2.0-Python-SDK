@@ -12,7 +12,8 @@ class IO(object):
         pass
 
     @abstractmethod
-    def write_motor_power(self, *args)
+    def write_motor_power(self, *args):
+        pass
     
     @abstractmethod
     def write_piezo_tone_frequency(self, frequency, duration, connect_id):
